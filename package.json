@@ -1,0 +1,28 @@
+{
+  "name": "emitter",
+  "repository": "git@github.com:mango/emitter.git",
+  "description": "A JavaScript event emitter written in ES6.",
+  "author": "Guille Paz <guille87paz@gmail.com>",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "node browserify.js",
+    "test": "npm run build && node_modules/.bin/_mocha",
+    "dist": "node browserify.js && uglifyjs ./dist/emitter.js -m -o ./dist/emitter.min.js",
+    "hint": "jshint index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "better-assert": "1.0.2",
+    "browserify": "7.0.3",
+    "mocha": "2.1.0",
+    "uglify-js": "2.4.15",
+    "jshint": "2.6.3",
+    "babelify": "^5.0.4",
+    "babel": "^4.7.13"
+  },
+  "main": "index.js",
+  "keywords": [
+    "emitter"
+  ],
+  "license": "MIT"
+}
