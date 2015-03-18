@@ -82,11 +82,10 @@ class Emitter {
       return this;
     }
 
-    listeners.forEach(function(fn, i) {
+    listeners.forEach((fn, i) => {
       if (fn === listener || fn.listener === listener) {
         // Removes the given listener.
         listeners.splice(i, 1);
-        return;
       }
     });
 
