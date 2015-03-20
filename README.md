@@ -57,22 +57,6 @@ Removes a `listener` from the collection for a specified `event`.
 emitter.off('live', listener);
 ```
 
-### Emitter#removeAllListeners(event)
-Removes all `listeners` from the collection for a specified `event`.
-- `event` - The name of the event you want to remove.
-
-```js
-emitter.removeAllListeners('live');
-```
-
-### Emitter#listeners(event)
-Returns all `listeners` from the collection for a specified `event`.
-- `event` - The name of the event.
-
-```js
-emitter.listeners('live');
-```
-
 ### Emitter#emit(event, [arg1], [arg2], [...])
 Execute each of the `listeners` collection in order with the given parameters.
 - `event` - The name of the event you want to emit.
