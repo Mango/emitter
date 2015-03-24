@@ -1,5 +1,5 @@
 {
-  "name": "emitter-es6",
+  "name": "emitter",
   "repository": "git@github.com:mango/emitter.git",
   "description": "A JavaScript event emitter written in ES6.",
   "author": "Guille Paz <guille87paz@gmail.com>",
