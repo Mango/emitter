@@ -1,5 +1,3 @@
-'use strict';
-
 /**
  * Creates a new instance of Emitter.
  * @class
