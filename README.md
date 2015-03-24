@@ -68,10 +68,6 @@ emitter.emit('live', 'data1', 'data2');
 
 ## npm-scripts
 ```
-$ npm run build
-```
-
-```
 $ npm run dist
 ```
 
