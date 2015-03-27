@@ -6,7 +6,7 @@
 ```js
 import Emitter from 'emitter';
 
-let bus = new Emitter();
+const bus = new Emitter();
 
 bus.emit('finish');
 ```
