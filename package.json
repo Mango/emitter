@@ -5,7 +5,7 @@
   "author": "Guille Paz <guille87paz@gmail.com>",
   "version": "0.0.1",
   "scripts": {
-    "test": "node_modules/.bin/_mocha",
+    "test": "_mocha",
     "dist": "node babel.js",
     "hint": "jshint index.js",
     "prepublish": "npm run dist"
@@ -19,7 +19,7 @@
     "mocha": "2.1.0",
     "jshint": "2.6.3"
   },
-  "main": ["index.js", "es5/index.js"],
+  "main": "index.js",
   "keywords": [
     "emitter"
   ],
