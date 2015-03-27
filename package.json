@@ -13,8 +13,6 @@
   "dependencies": {},
   "devDependencies": {
     "babel": "4.7.13",
-    "babelify": "5.0.4",
-    "browserify": "7.0.3",
     "better-assert": "1.0.2",
     "mocha": "2.1.0",
     "jshint": "2.6.3"
