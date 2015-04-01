@@ -9,10 +9,10 @@
     "dist": "node browserify.js",
     "hint": "jshint index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babelify": "5.0.4"
+  },
   "devDependencies": {
-    "babel": "4.7.13",
-    "babelify": "5.0.4",
     "browserify": "7.0.3",
     "better-assert": "1.0.2",
     "mocha": "2.1.0",
