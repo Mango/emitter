@@ -2,30 +2,22 @@
 
 > A JavaScript Emitter written in ES6.
 
-## Usage
+## ES6 Usage
 ```js
-import Emitter from 'Emitter';
+import Emitter from 'emitter';
 
-let bus = new Emitter();
+const bus = new Emitter();
 
 bus.emit('finish');
-
 ```
 
+## ES5 Usage
 ```js
-import Emitter from 'Emitter';
+var Emitter = require('emitter/es5');
 
-class Foo extends Emitter {
-  constructor() {
-    // Code here!
-  }
+var bus = new Emitter();
 
-  ...
-};
-
-let foo = new Foo();
-
-foo.emit('finish');
+bus.emit('finish');
 ```
 
 ## API
@@ -57,10 +49,10 @@ Removes a `listener` from the collection for a specified `event`.
 emitter.off('live', listener);
 ```
 
-### Emitter#emit(event, [arg1], [arg2], [...])
+### Emitter#emit(event, [...args])
 Execute each of the `listeners` collection in order with the given parameters.
 - `event` - The name of the event you want to emit.
-- `[args, ...]` - The given arguments.
+- `[...args]` - The given arguments.
 
 ```js
 emitter.emit('live', 'data1', 'data2');

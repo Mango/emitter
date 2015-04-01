@@ -5,20 +5,20 @@
   "author": "Guille Paz <guille87paz@gmail.com>",
   "version": "0.0.1",
   "scripts": {
-    "test": "node_modules/.bin/_mocha",
-    "dist": "node browserify.js",
-    "hint": "jshint index.js"
+    "test": "_mocha",
+    "dist": "node babel.js",
+    "hint": "jshint index.js",
+    "prepublish": "npm run dist"
   },
   "dependencies": {
     "babelify": "5.0.4"
   },
   "devDependencies": {
-    "browserify": "7.0.3",
     "better-assert": "1.0.2",
     "mocha": "2.1.0",
     "jshint": "2.6.3"
   },
-  "main": ["index.js", "es5/index.js"],
+  "main": "index.js",
   "keywords": [
     "emitter"
   ],
