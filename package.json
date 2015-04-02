@@ -6,24 +6,20 @@
   "version": "0.0.1",
   "scripts": {
     "test": "_mocha",
-    "dist": "node babel.js",
+    "es5": "node babel.js",
     "hint": "jshint index.js",
-    "prepublish": "npm run dist"
+    "prepublish": "npm run es5"
   },
-  "dependencies": {
-    "babelify": "5.0.4"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "babel": "^5.0.2",
     "better-assert": "1.0.2",
-    "mocha": "2.1.0",
-    "jshint": "2.6.3"
+    "jshint": "2.6.3",
+    "mocha": "2.1.0"
   },
   "main": "index.js",
   "keywords": [
     "emitter"
   ],
-  "license": "MIT",
-  "browserify": {
-    "transform": ["babelify"]
-  }
+  "license": "MIT"
 }
