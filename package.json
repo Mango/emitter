@@ -3,7 +3,7 @@
   "repository": "git@github.com:mango/emitter.git",
   "description": "A JavaScript event emitter written in ES6.",
   "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "test": "_mocha",
     "es5": "node babel.js",
