@@ -60,7 +60,7 @@ emitter.emit('live', 'data1', 'data2');
 
 ## npm-scripts
 ```
-$ npm run dist
+$ npm run es5
 ```
 
 ```
