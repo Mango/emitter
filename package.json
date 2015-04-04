@@ -1,16 +1,29 @@
 {
   "name": "emitter",
-  "repository": "git@github.com:mango/emitter.git",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mango/emitter.git"
+  },
   "description": "A JavaScript event emitter written in ES6.",
-  "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "0.0.2",
+  "author": {
+    "name": "Guille Paz",
+    "email": "guille87paz@gmail.com"
+  },
+  "version": "0.0.3",
   "scripts": {
     "test": "_mocha",
     "es5": "node babel.js",
     "hint": "jshint index.js",
     "prepublish": "npm run es5"
   },
-  "dependencies": {},
+  "browserify": {
+    "transform": [
+      ["babelify", {"loose": ["es6.classes", "es6.modules"]}]
+    ]
+  },
+  "dependencies": {
+    "babelify": "^6.0.0"
+  },
   "devDependencies": {
     "babel": "^5.0.2",
     "better-assert": "1.0.2",
