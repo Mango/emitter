@@ -2,20 +2,11 @@
 
 > A JavaScript Emitter written in ES6.
 
-## ES6 Usage
+## Usage
 ```js
 import Emitter from 'emitter';
 
 const bus = new Emitter();
-
-bus.emit('finish');
-```
-
-## ES5 Usage
-```js
-var Emitter = require('emitter/es5');
-
-var bus = new Emitter();
 
 bus.emit('finish');
 ```
@@ -60,7 +51,11 @@ emitter.emit('live', 'data1', 'data2');
 
 ## npm-scripts
 ```
-$ npm run es5
+$ npm run dist
+```
+
+```
+$ npm run browser
 ```
 
 ```
