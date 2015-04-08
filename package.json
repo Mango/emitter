@@ -12,21 +12,17 @@
   "version": "0.0.3",
   "scripts": {
     "test": "_mocha",
-    "es5": "node babel.js",
-    "hint": "jshint index.js",
-    "prepublish": "npm run es5"
+    "hint": "jshint ./src/index.js",
+    "compile": "node babel.js",
+    "browser": "node browserify.js",
+    "prepublish": "npm run compile"
   },
-  "browserify": {
-    "transform": [
-      ["babelify", {"loose": ["es6.classes", "es6.modules"]}]
-    ]
-  },
-  "dependencies": {
-    "babelify": "^6.0.0"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.0.2",
+    "babelify": "^6.0.0",
     "better-assert": "1.0.2",
+    "browserify": "^9.0.7",
     "jshint": "2.6.3",
     "mocha": "2.1.0"
   },

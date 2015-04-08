@@ -1,5 +1,5 @@
 import assert from 'assert';
-import Emitter from '../index.js';
+import Emitter from '../src/index.js';
 
 const bus = new Emitter();
 
