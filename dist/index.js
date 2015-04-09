@@ -2,6 +2,7 @@
 
 var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
 
+exports.__esModule = true;
 /**
  * Creates a new instance of Emitter.
  * @class
@@ -148,4 +149,5 @@ var Emitter = (function () {
 /**
  * Exports Emitter
  */
-module.exports = Emitter;
+exports["default"] = Emitter;
+module.exports = exports["default"];
