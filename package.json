@@ -26,7 +26,7 @@
     "jshint": "2.6.3",
     "mocha": "2.1.0"
   },
-  "main": "index.js",
+  "main": "./dist/index.js",
   "keywords": [
     "emitter"
   ],
