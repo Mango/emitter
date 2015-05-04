@@ -9,7 +9,7 @@
     "name": "Guille Paz",
     "email": "guille87paz@gmail.com"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "test": "_mocha",
     "hint": "jshint ./src/index.js",

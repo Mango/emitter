@@ -3,7 +3,7 @@
   "repo": "mango/emitter",
   "description": "A JavaScript event emitter written in ES6.",
   "author": "Guille Paz <guille87paz@gmail.com>",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "twitter": "@getmango",
   "keywords": [
     "emitter"
