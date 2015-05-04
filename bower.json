@@ -1,0 +1,21 @@
+{
+  "name": "emitter-es6",
+  "version": "0.0.5",
+  "homepage": "https://github.com/Mango/emitter",
+  "description": "A JavaScript event emitter written in ES6.",
+  "main": "./dist/index.js",
+  "keywords": [
+    "emitter"
+  ],
+  "authors": [
+    "Guille Paz <guille87paz@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
