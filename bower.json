@@ -1,9 +1,9 @@
 {
   "name": "emitter-es6",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "homepage": "https://github.com/Mango/emitter",
   "description": "A JavaScript event emitter written in ES6.",
-  "main": "./dist/index.js",
+  "main": "./browser/index.js",
   "keywords": [
     "emitter"
   ],
